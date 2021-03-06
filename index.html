@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>3D Cube Links</title>
+  </head>
+  <body>
+    <div class="scene">
+      <div class="cube" onmousedown="grabOn(true)" onmouseup="grabOff()">
+        <div class="cube__face cube__face--front">
+          <img
+            id="icon"
+            onclick="redirect(0)"
+            src="https://img.icons8.com/material-sharp/96/000000/github.png"
+          />
+        </div>
+        <div class="cube__face cube__face--back">
+          <img
+            id="icon"
+            onclick="redirect(1)"
+            src="https://img.icons8.com/ios-glyphs/90/000000/linkedin-circled--v1.png"
+          />
+        </div>
+        <div class="cube__face cube__face--right">
+          <img
+            id="icon"
+            onclick="redirect(2)"
+            src="https://img.icons8.com/fluent-systems-filled/96/000000/instagram-new.png"
+          />
+        </div>
+        <div class="cube__face cube__face--left">
+          <img
+            id="icon"
+            src="https://img.icons8.com/material-sharp/96/000000/facebook-circled--v1.png"
+          />
+        </div>
+        <div class="cube__face cube__face--top">
+          <img
+            id="icon"
+            src="https://img.icons8.com/ios-glyphs/90/000000/twitter-circled--v1.png"
+          />
+        </div>
+        <div class="cube__face cube__face--bottom">
+          <img
+            id="icon"
+            src="https://img.icons8.com/material-sharp/96/000000/spotify.png"
+          />
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
