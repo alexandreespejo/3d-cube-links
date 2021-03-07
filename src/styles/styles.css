@@ -62,26 +62,20 @@ img:active {
 }
 
 .cube__face--front {
-  background-color: rgba(255, 0, 0, 0.507);
   transform: rotateY(0deg) translateZ(100px);
 }
 .cube__face--right {
-  background-color: rgba(0, 128, 0, 0.507);
   transform: rotateY(90deg) translateZ(100px);
 }
 .cube__face--back {
-  background-color: rgba(255, 68, 0, 0.5);
   transform: rotateY(180deg) translateZ(100px);
 }
 .cube__face--left {
-  background-color: rgba(0, 0, 255, 0.507);
   transform: rotateY(-90deg) translateZ(100px);
 }
 .cube__face--top {
-  background-color: rgba(255, 255, 0, 0.5);
   transform: rotateX(90deg) translateZ(100px);
 }
 .cube__face--bottom {
-  background-color: rgba(255, 255, 255, 0.514);
   transform: rotateX(-90deg) translateZ(100px);
 }
